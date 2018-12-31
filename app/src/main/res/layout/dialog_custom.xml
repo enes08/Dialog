@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFF39C"
+        android:orientation="vertical">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:background="@android:color/white"
+                  android:layout_marginBottom="10dp"
+    >
+
+        <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_logout"
+                android:tint="#FF2E2E"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:layout_gravity="center_horizontal"/>
+
+
+    </LinearLayout>
+
+
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@android:color/black"
+              android:layout_gravity="center_horizontal"
+              android:textSize="16sp"
+              android:textStyle="bold"
+               android:id="@+id/tvTitle"
+
+    />
+
+
+    <TextView
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="#B1B1B1"
+              android:gravity="center_horizontal"
+              android:layout_gravity="center_horizontal"
+              android:textSize="12sp"
+              android:textStyle="bold"
+              android:id="@+id/tvMessage"
+
+
+    />
+
+
+    <LinearLayout
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+    >
+
+        <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FF2E2E"
+                android:text="HAYIR"
+                android:textColor="@android:color/white"
+                android:layout_margin="5dp"
+        android:id="@+id/btnHayir"/>
+
+        <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#3DFFBA"
+                android:text="EVET"
+                android:textColor="@android:color/white"
+                android:layout_margin="5dp"
+        android:id="@+id/btnEvet"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
